@@ -1,0 +1,12 @@
+l1=[]
+n=int(input("Enter limit:"))
+for i in range (n):
+    a=int(input())
+    l1.append(a)
+print(l1)
+
+print("\nPositive elements of list:-")
+for j in l1:
+    if j>0:
+        print(j)
+        
